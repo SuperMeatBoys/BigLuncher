@@ -15,6 +15,9 @@
     <!-- Application theme. -->
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:windowNoTitle">true</item> <!-- 设置没有标题 -->
+        <item name="android:textSize">20sp</item>   <!-- 设置文本大小 -->
+        <item name="android:background">@null</item>
     </style>
 
 </resources>
